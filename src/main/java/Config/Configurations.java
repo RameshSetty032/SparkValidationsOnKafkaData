@@ -3,8 +3,6 @@ package Config;
 public class Configurations {
 
     final static String appName = "kafka-to-Hive-Batch-job";
-
-    //hhhhhgit commit
     final static String master = "local[*]";
     final static String source = "kafka";
     final static String topic = "excep_Topic";
