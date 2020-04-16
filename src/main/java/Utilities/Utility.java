@@ -1,7 +1,7 @@
 package Utilities;
 
-import com.cv.polaris.mer.configurations.Constants;
-import com.cv.polaris.mer.model.LoggingDetail;
+import Config.Constants;
+import model.LoggingDetail;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
 import org.apache.spark.sql.*;

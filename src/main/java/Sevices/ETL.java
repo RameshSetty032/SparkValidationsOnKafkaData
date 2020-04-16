@@ -1,10 +1,8 @@
 package Sevices;
 
-import com.cv.polaris.mer.model.LoggingDetail;
-import com.cv.polaris.mer.utils.Utility;
-import com.cv.polaris.mer.configurations.Constants;
-import com.cv.polaris.mer.configurations.Schema;
-import org.apache.spark.api.java.function.FilterFunction;
+import model.LoggingDetail;
+import Utilities.Utility;
+import Config.Constants;
 import org.apache.spark.api.java.function.ForeachFunction;
 import org.apache.spark.api.java.function.MapFunction;
 import org.apache.spark.sql.Dataset;
